@@ -1,0 +1,9 @@
+<block> ::= (<term>)+
+
+<term> ::= true
+         | false
+         | if <term> then <term> else <term>
+         | 0
+         | succ <term>
+         | pred <term>
+         | iszero <term>
